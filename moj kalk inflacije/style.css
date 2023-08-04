@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+.potamljena_pozadina{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.413);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.naslov h1{
+    color:  white;
+    margin-top: 3vh;
+}
+
+.naslov{
+    width: 100vw;
+    text-align: center;
+}
+
+.polja_za_unosenje{
+    border: 1px solid white;
+    height: 60vh;
+    width: 50vw;
+    margin: 10vh auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.417);
+    padding: 50px;
+    text-align: center;
+} 
+
+.polja_za_unosenje p {
+    color: white;
+    font-size: 25px;
+}
+
+p input{
+    height: 4vh;
+    width: 4vw;
+}
+
+button{
+    height: 4vh;
+    width: 4vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.polja_za_unosenje{
+    color: white;
+    font-size: 25px;
+}
+
